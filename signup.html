@@ -1,0 +1,154 @@
+<html>
+<style>
+    body {
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .box {
+        display: grid;
+        place-items: center;
+        gap: 10px;
+        margin-top: 30px;
+    }
+
+    .box1 {
+        width: 240px;
+        border: 1px solid rgb(222, 216, 216);
+        padding: 35px;
+        padding-top: 0px;
+    }
+
+    .box2 {
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 290px;
+        border: 1px solid rgb(222, 216, 216);
+        padding: 10px;
+        gap:5px;
+        font-size: 13px;
+    }
+    .heading p{
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(114, 104, 104);
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .box1 h1 {
+        text-align: center;
+        padding-top: 10px;
+        font-family: "BBH Bogle", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .btn1{
+        display: flex;
+        padding-bottom: 20px;
+        text-decoration: none;
+    }
+
+    .btn1 button{
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 7px;
+        border-radius: 5px;
+        border: none;
+        color: white;
+        background-color: rgb(27, 27, 243);
+        font-weight: 600;
+
+    }
+    button:hover{
+        cursor: pointer;
+    }
+    .btn1 img{
+        height: 14px;
+        width: 14px;
+    }
+    .valid {
+        display: grid;
+        gap: 6px;
+    }
+
+    .valid input {
+        padding: 10.5px;
+        width: 100%;
+        border-radius: 3px;
+        border: 1px solid rgb(222, 216, 216);
+        background-color: rgb(243, 243, 245);
+        font-size: 11px;
+    }
+
+    .btn2 {
+        width: 100%;
+        margin-top: 13px;
+        padding: 5px;
+        background-color: rgb(143, 143, 251);
+        border: none;
+        border-radius: 4px;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .text{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 10.8px;
+        letter-spacing: 0.2;
+        line-height: 1.4;
+        color: rgb(111, 103, 103);
+    }
+    .text a{
+        text-decoration: none;
+    }
+
+    .box2 p{
+        text-align: center;
+    }
+    .box2 a{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color:  rgb(13, 13, 252);
+        font-size: 13px;
+        padding-top: 0px;
+    }
+
+</style>
+
+<body>
+    <div class="box">
+        <div class="box1">
+            <div class="heading">
+            <h1>Instagram</h1>
+            <p>Sign up to see photos and videos from your friends.</p>
+            </div>
+            <a class="btn1" href="https://www.facebook.com/login.php?next=https%3A%2F%2Fwww.facebook.com%2Foidc%2F%3Fapp_id%3D124024574287414%26redirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%252Fsignupviafb%252F%26response_type%3Dcode%26scope%3Dopenid%2Bemail%2Bprofile%2Blinking%26state%3DATmXUbfVL6wKHaGLnKxo1t2Gs1h-o96EqMa3MGN7u0h_ebEZPGraRq0rCMqN4zjkma6fJj21_ugVkN4QOhYiSuecoJRDmDLDykiXFO44kg6tu7QA6CM_dHZ-tcBfSGfNKzG89NDAycrpP_GzAiGnqwU38vGUG-_LY_atioedY7Ede1slPbK9gUhDGA7mXTvXIeDynr5U7DqgqPCtq3KmWgCyjqFhXyBlcnfz4EZ1fl5xvqUGHQ">
+                <button>
+                <img src="https://th.bing.com/th/id/OIP.zaiIl16zqTKDuhYIxeop0wHaHa?w=152&h=150&c=6&o=5&cb=ucfimg2&dpr=1.3&pid=1.7&ucfimg=1">
+                Log in with Facebook</button>
+                </a>
+            <div class="valid">
+                <input type="number email" placeholder="Mobile Number or Email">
+                <input type="password" placeholder="Password">
+                <input type="text" placeholder="Full Name">
+                <input type="text" placeholder="Username">
+            </div>
+            <div class="text">
+                <p>People who use our service may have uploaded your contact information to Instagram.<a href="#">Learn More</a></p>
+                <p>By signing up, you agree to our <a href="#">Terms</a> , <a href="#">Privacy Policy</a> and <a href="#">Cookies Policy .</a></p>
+            </div>
+            <a href="signupalert.html"><button class="btn2" >Sign up</button></a>
+        </div>
+        <div class="box2">
+            <p>Have an account?</p>
+            <a href="instagramloginpage.html">Log in</a>
+        </div>
+    </div>
+</body>
+
+</html>
